@@ -1,4 +1,4 @@
-#Getting data (reading the txt file as powerDF, 
+#Getting data (reading the txt file data as powerDF, 
 #note for R:  T==TRUE,F==FALSE)
 powerDF <- read.table( "c:/household_power_consumption.txt", header = T, sep = ";", 
                           na.strings = "?", stringsAsFactors = F, 
